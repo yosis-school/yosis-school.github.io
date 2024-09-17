@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 
 const images = [
   '/images/yosis-school-logo.png',
-  '/images/image2.jpg',
-  '/images/image3.jpg',
+  '/images/yosi-pensive.png',
+  '/images/yosi-painting.png',
   '/images/image4.jpg'
 ];
 
@@ -77,7 +77,7 @@ function Home() {
           Choosing the best Jewish education for your children is not easy. For over 60 years, I've been teaching Jewish classes for kids, college students, and adults. Now is a time for both change and continuity.
         </p>
         
-        <h2>Continuity</h2>
+        <h1>Continuity</h1>
         <p>
           Parents of kids in grades 4-8, especially those whose children I've been teaching, encouraged me to continue offering classes in Torah text and Hebrew language. These approaches differ from those of congregational religious schools.
         </p>
@@ -85,7 +85,7 @@ function Home() {
           For 52 years, I've created and taught 9th-12th-grade classes in Hebrew, Torah, Jewish thought, Israel, antisemitism, and Jewish tradition. Parents have noted, again and again, how their children have been supported, stimulated, challenged, and inspired by these courses. I will continue to do so as a freelance teacher for the coming year(s), God-willing.
         </p>
         
-        <h2>Change</h2>
+        <h1>Change</h1>
         <p>
           Today, I'm announcing that I am offering an alternative place for kids to learn, another option for families to consider.
         </p>

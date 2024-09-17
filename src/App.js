@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import FourthToEighth from './components/4th-8th';
 import NinthToTwelfth from './components/9th-12th';
+import AdultEducation from './components/Adult-Education';
 import './App.css';
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
           <nav>
             <ul>
               <li><Link to="/">Home</Link></li>
+              <li><Link to="/4th-8th">4th-8th</Link></li>
               <li><Link to="/9th-12th">9th-12th</Link></li>
+              <li><Link to="/adult-education">Adult Education</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
@@ -24,7 +28,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/4th-8th" element={<FourthToEighth />} />
             <Route path="/9th-12th" element={<NinthToTwelfth />} />
+            <Route path="/adult-education" element={<AdultEducation />} />
           </Routes>
         </main>
       </div>
