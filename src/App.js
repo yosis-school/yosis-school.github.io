@@ -15,22 +15,22 @@ function App() {
         <header>
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/4th-8th">4th-8th</Link></li>
-              <li><Link to="/9th-12th">9th-12th</Link></li>
-              <li><Link to="/adult-education">Adult Education</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/yosis-school/home">Home</Link></li>
+              <li><Link to="/yosis-school/4th-8th">4th-8th</Link></li>
+              <li><Link to="/yosis-school/9th-12th">9th-12th</Link></li>
+              <li><Link to="/yosis-school/adult-education">Adult Education</Link></li>
+              <li><Link to="/yosis-school/contact">Contact</Link></li>
             </ul>
           </nav>
         </header>
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/4th-8th" element={<FourthToEighth />} />
-            <Route path="/9th-12th" element={<NinthToTwelfth />} />
-            <Route path="/adult-education" element={<AdultEducation />} />
+            <Route path="/yosis-school/home" element={<Home />} />
+            <Route path="/yosis-school/about" element={<About />} />
+            <Route path="/yosis-school/contact" element={<Contact />} />
+            <Route path="/yosis-school/4th-8th" element={<FourthToEighth />} />
+            <Route path="/yosis-school/9th-12th" element={<NinthToTwelfth />} />
+            <Route path="/yosis-school/adult-education" element={<AdultEducation />} />
           </Routes>
         </main>
       </div>
