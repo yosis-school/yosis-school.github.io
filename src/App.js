@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -25,12 +25,14 @@ function App() {
         </header>
         <main>
           <Routes>
+            <Route path="/yosis-school" element={<Navigate replace to="/yosis-school/home" />} />
             <Route path="/yosis-school/home" element={<Home />} />
             <Route path="/yosis-school/about" element={<About />} />
             <Route path="/yosis-school/contact" element={<Contact />} />
             <Route path="/yosis-school/4th-8th" element={<FourthToEighth />} />
             <Route path="/yosis-school/9th-12th" element={<NinthToTwelfth />} />
             <Route path="/yosis-school/adult-education" element={<AdultEducation />} />
+            <Route path="*" element={<Navigate replace to="/yosis-school/home" />} />
           </Routes>
         </main>
       </div>
