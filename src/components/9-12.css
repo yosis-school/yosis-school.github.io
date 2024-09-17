@@ -1,0 +1,31 @@
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.about ul {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.about li {
+  margin-bottom: 0.5rem;
+}
