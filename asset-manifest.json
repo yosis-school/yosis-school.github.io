@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yosis-school/static/css/main.cd527579.css",
-    "main.js": "/yosis-school/static/js/main.7a8c1085.js",
+    "main.js": "/yosis-school/static/js/main.5996a9f5.js",
     "static/js/453.2966abaf.chunk.js": "/yosis-school/static/js/453.2966abaf.chunk.js",
     "index.html": "/yosis-school/index.html",
     "main.cd527579.css.map": "/yosis-school/static/css/main.cd527579.css.map",
-    "main.7a8c1085.js.map": "/yosis-school/static/js/main.7a8c1085.js.map",
+    "main.5996a9f5.js.map": "/yosis-school/static/js/main.5996a9f5.js.map",
     "453.2966abaf.chunk.js.map": "/yosis-school/static/js/453.2966abaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd527579.css",
-    "static/js/main.7a8c1085.js"
+    "static/js/main.5996a9f5.js"
   ]
 }
