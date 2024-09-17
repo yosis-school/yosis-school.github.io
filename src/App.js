@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import NinthToTwelfth from './components/9-12';
+import NinthToTwelfth from './components/9th-12th';
 import './App.css';
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
         <header>
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/9-12">9th-12th</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/yosis-school">Home</Link></li>
+              <li><Link to="/yosis-school/9th-12th">9th-12th</Link></li>
+              <li><Link to="/yosis-school/contact">Contact</Link></li>
             </ul>
           </nav>
         </header>
@@ -24,7 +24,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/9-12" element={<NinthToTwelfth />} />
+            <Route path="/9th-12th" element={<NinthToTwelfth />} />
           </Routes>
         </main>
       </div>

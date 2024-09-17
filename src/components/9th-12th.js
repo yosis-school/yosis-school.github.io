@@ -1,5 +1,5 @@
 import React from 'react';
-import './9-12.css';
+import './9th-12th.css';
 
 function NinthToTwelfth() {
   return (
