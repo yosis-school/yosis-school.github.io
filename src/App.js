@@ -13,9 +13,9 @@ function App() {
         <header>
           <nav>
             <ul>
-              <li><Link to="/yosis-school">Home</Link></li>
-              <li><Link to="/yosis-school/9th-12th">9th-12th</Link></li>
-              <li><Link to="/yosis-school/contact">Contact</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/9th-12th">9th-12th</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
         </header>
